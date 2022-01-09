@@ -23,3 +23,6 @@ int main()
     }
     cout<<dp[n];
 }
+
+/* optimal solution of last n elements = max( first element in last n elements + optimal solution of
+ last n-2 elements, optimal solution of last n-1 elements) */
